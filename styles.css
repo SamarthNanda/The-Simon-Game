@@ -1,0 +1,172 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.heading{
+  font-size: 2.5rem;
+  font-family: 'Press Start 2P', cursive;
+  margin: 3%;
+  color: #FEF2BF;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: inline-block;
+  width: 48%;
+  margin: auto 17% auto auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+/* instruction */
+
+.aside{
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: auto auto auto 7%;
+  text-align: left;
+
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: #fbc687;
+}
+p{
+  font-size: 1.2rem;
+  color: #aacdbe;
+  line-height: inherit;
+  font-family: sans-serif;
+}
+
+/* footer links */
+
+footer{
+  text-align: center;
+  padding: 2% 8% auto;
+}
+.footer-logo{
+  margin: 1% 1.2% auto;
+  color: grey;
+  font-size: 25px;
+}
+
+.footer-logo:hover{
+    color:#ff4c68;
+}
+
+
+
+/* media query */
+
+@media only screen and (max-width:1164px){
+
+/* button mobile view */
+   .container{
+      width:100%;
+      display: block;
+    }
+    .row{
+      display:  inline-block;
+    }
+    .btn {
+      margin: 25px;
+      display: inline-block;
+      height: 160px;
+      width: 160px;
+      border: 10px solid black;
+      border-radius: 20%;
+    }
+
+/* Instructions mobile view */
+    .aside{
+      display: block;
+      width: 90%;
+      margin: auto auto auto 7%;
+      text-align: left;
+
+    }
+    h2{
+      font-size: 1.2rem;
+    }
+    p{
+      font-size: 1.1rem;
+    }
+
+/* h1 main level heading */
+    .pc-h1{
+      display: none;
+    }
+    .mobile-h1{
+      display: block;
+      line-height: 1.5em;
+    }
+    #level-title{
+      font-size: 1.5rem;
+    }
+/* game heading mobile-view */
+    .heading{
+      font-size: 1.3rem;
+      font-family: 'Press Start 2P', cursive;
+      margin: 3%;
+      color: #FEF2BF;
+    }
+    img{
+      width: 70px;
+    }
+
+}
+
+/* second media query for game level position in web page */
+@media only screen and (min-width:1165px) {
+  .pc-h1{
+    display: block;
+  }
+  .mobile-h1{
+    display: none;
+  }
+
+}
