@@ -122,13 +122,6 @@ footer{
     }
 
 /* Instructions mobile view */
-    .aside{
-      display: block;
-      width: 85%;
-      margin: 5% auto auto 7%;
-      text-align: left;
-
-    }
     h2{
       font-size: 1rem;
     }
@@ -139,7 +132,10 @@ footer{
       display: none;
     }
     .aside-mobile{
-      display:inline-block;
+      display: block;
+      width: 85%;
+      margin: 5% auto auto 7%;
+      text-align: left;
     }
 
 /* h1 main level heading */
@@ -174,9 +170,11 @@ footer{
     }
     .start-btn-mobile-text{
       color: black;
-      padding-top: 13%;
+      padding-top: 18%;
       font-family: 'Press Start 2P', cursive;
     }
+
+    
 
 }
 
