@@ -124,28 +124,28 @@ footer{
 /* Instructions mobile view */
     .aside{
       display: block;
-      width: 90%;
-      margin: auto auto auto 7%;
+      width: 85%;
+      margin: 5% auto auto 7%;
       text-align: left;
 
     }
     h2{
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     p{
-      font-size: 1.1rem;
+      font-size: 0.8rem;
     }
 
 /* h1 main level heading */
-    .pc-h1{
+    /* .pc-h1{
       display: none;
     }
     .mobile-h1{
       display: block;
       line-height: 2em;
-    }
+    } */
     #level-title{
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 /* game heading mobile-view */
     .heading{
@@ -180,12 +180,12 @@ footer{
 
 /* second media query for game level position in web page */
 @media only screen and (min-width:1165px) {
-  .pc-h1{
+  /* .pc-h1{
     display: block;
   }
   .mobile-h1{
     display: none;
-  }
+  } */
 
 /* start btn for mobile hide */
   .start-btn-mobile{
