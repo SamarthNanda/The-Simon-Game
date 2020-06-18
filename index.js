@@ -99,7 +99,14 @@ function animatePress(currentColor){
                         },100);
 }
 
+$(.start-btn-mobile).click(function(){
 
+    if(!started){
+      $("level-title").text("Level"+level);
+      nextSequence();
+      started=true;
+    }
+});
 
 
 
