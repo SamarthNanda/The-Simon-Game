@@ -17,7 +17,7 @@ $(document).keypress(function(){
     }
 });
 
-$(".start-btn-mobile").click(function(){
+$(".start-btn-mobile").on('click touchstart', function (){
   function myFunction(x) {
     if (x.matches) {  var x = window.matchMedia("(max-width: 700px)")
       myFunction(x) // Call listener function at run time
@@ -28,7 +28,7 @@ $(".start-btn-mobile").click(function(){
           nextSequence();
           started=true;
         }
-    } 
+    }
   }
 
 });
